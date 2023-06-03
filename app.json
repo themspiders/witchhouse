@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "witchhouse",
+    "slug": "witchhouse",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/image.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/image.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/image.png",
+        "backgroundColor": "#000000"
+      },
+      "package": "com.skyesweetnam.witchhouse"
+    },
+    "web": {
+      "favicon": "./assets/image.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "01dd2525-c723-41e1-a24c-397100fc4e8f"
+      }
+    }
+  }
+}
