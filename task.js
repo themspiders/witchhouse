@@ -133,8 +133,12 @@ class Task {
     this.since = null;
   }
   
+  //[0, 4] <-> [0, 16]
+  //0->4
+  //16->0
+  //f(x)=4-x/4
   increase = (elapsed) => {
-    const nx = this.x0 + 4*elapsed;
+    const nx = this.x0 + (4-this.x/(4*3600000))*elapsed;
     if (nx < 0.9*this.sx) {
       this.x = nx;
     }
